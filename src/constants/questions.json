@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What was Meta Platforms Inc formerly known as?",
+    "answers": [
+      { "text": "Instagram", "isCorrect": false },
+      { "text": "Whatsapp", "isCorrect": false },
+      { "text": "Facebook", "isCorrect": true },
+      { "text": "Amazon", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which English city is known as the Steel City?",
+    "answers": [
+      { "text": "New York", "isCorrect": false },
+      { "text": "Sheffield", "isCorrect": true },
+      { "text": "London", "isCorrect": false },
+      { "text": "York", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which former British colony was given back to China in 1997?",
+    "answers": [
+      { "text": "Shanghai", "isCorrect": false },
+      { "text": "Taiwan", "isCorrect": false },
+      { "text": "Beijing", "isCorrect": false },
+      { "text": "Hong Kong", "isCorrect": true }
+    ]
+  },
+  {
+    "question": "The logo for luxury car maker Porsche features which animal?",
+    "answers": [
+      { "text": "Horse", "isCorrect": true },
+      { "text": "Bull", "isCorrect": false },
+      { "text": "Jaguar", "isCorrect": false },
+      { "text": "Cheetah", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which element is said to keep bones strong?",
+    "answers": [
+      { "text": "Calcium", "isCorrect": true },
+      { "text": "Vitamin D", "isCorrect": false },
+      { "text": "Calory", "isCorrect": false },
+      { "text": "Iron", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What does CIA stand for?",
+    "answers": [
+      { "text": "Central International Agency", "isCorrect": false },
+      { "text": "Central Intelligence Agency", "isCorrect": true },
+      { "text": "Computer Intelligence Agency", "isCorrect": false },
+      { "text": "Central Insurance Agency", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Suriname is located on which continent?",
+    "answers": [
+      { "text": "South America", "isCorrect": true },
+      { "text": "Oceania", "isCorrect": false },
+      { "text": "North America", "isCorrect": false },
+      { "text": "Europe", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "In tennis, what piece of fruit is found at the top of the men’s Wimbledon trophy?",
+    "answers": [
+      { "text": "Banana", "isCorrect": false },
+      { "text": "Apple", "isCorrect": false },
+      { "text": "Pineapple", "isCorrect": true },
+      { "text": "Cucumber", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Haematology is the study of what?",
+    "answers": [
+      { "text": "Anatomy", "isCorrect": false },
+      { "text": "The blood", "isCorrect": true },
+      { "text": "Organs", "isCorrect": false },
+      { "text": "Genitals", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "What is the main ingredient in guacamole?",
+    "answers": [
+      { "text": "Salt", "isCorrect": false },
+      { "text": "Onion", "isCorrect": false },
+      { "text": "Lime juice", "isCorrect": false },
+      { "text": "Avocado", "isCorrect": true }
+    ]
+  }
+]
