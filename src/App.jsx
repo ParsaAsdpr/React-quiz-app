@@ -9,6 +9,9 @@ function App() {
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
 
+  let requiredScore = 8;
+  const [passed, setPassed] = useState(false);
+
   const handleAnswerClick = (isCorrect) => {
     const nextQuestion = currentQuestion + 1;
     if (isCorrect === true) setScore(score + 1);
@@ -17,15 +20,23 @@ function App() {
     } else {
       setShowScore(true);
     }
+
+    if (score >= requiredScore) setPassed(true);
   };
 
   return (
     <div className="p-10">
       {showScore ? (
         <div className="max-w-7xl p-10 text-center mx-auto shadow-md rounded-lg overflow-hidden border border-stone-300">
-          <h2 className="text-stone-700 text-2xl font-bold">
-            {" "}
+          <h3 className="text-stone-700 text-2xl font-bold">
             You Answered {score} out of {questions.length}
+          </h3>
+          <h2 className={`text-3xl pt-4 text-center font-bold`}>
+            You Have{" "}
+            <span className={`${passed ? "text-green-500" : "text-red-500"}`}>
+              {passed ? "Passed" : "Failed"}
+            </span>{" "}
+            The Quiz
           </h2>
         </div>
       ) : (
@@ -50,7 +61,6 @@ function App() {
               />
             ))}
           </div>
-
           <div className="bg-[#eee] px-10 py-5 text-center text-stone-800">
             <p>Queston {`${currentQuestion + 1}/${questions.length}`}</p>
           </div>
